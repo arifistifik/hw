@@ -11,8 +11,8 @@ $ apt update
 $ apt upgrade
 $ apt install python
 $ apt install git
-$ git clone https://github.com/dzingans/HelloWorld
-$ cd HelloWorld
+$ git clone https://github.com/arifistifik/hw
+$ cd hw
 $ python -m pip install -r requirements.txt
 $ python helloworld.py
 ```
@@ -20,8 +20,8 @@ $ python helloworld.py
 ## Installation for VPS
 
 ```sh
-$ git clone https://github.com/dzingans/HelloWorld
-$ cd HelloWorld
+$ git clone https://github.com/arifistifik/hw
+$ cd hw
 $ python3 -m pip install -r requirements.txt
 $ python3 helloworld.py
 ```
