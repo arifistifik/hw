@@ -7,7 +7,7 @@ from datetime import datetime
 from googletrans import Translator
 import ast, codecs, json, os, pytz, re, random, requests, sys, time, urllib.parse
 
-listApp = ["CHROMEOS", "DESKTOPWIN", "DESKTOPMAC", "IOSIPAD", "WIN10"]
+listApp = ["CHROMEOS"]
 try:
 	for app in listApp:
 		try:
@@ -19,7 +19,7 @@ try:
 						with open("authToken.txt","w") as token:
 							token.write(client.authToken)
 						continue
-					client = LINE(authToken, speedThrift=False, appName="{}\t8.8.1\tHelloWorld\t11.2.5".format(app))
+					client = LINE(authToken, speedThrift=False, appName="{}\t2.1.5\tHelloWorld\t11.2.5".format(app))
 				break
 			except Exception as error:
 				print(error)
