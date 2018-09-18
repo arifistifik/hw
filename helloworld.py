@@ -203,7 +203,7 @@ def menuHelp():
 				"╠ " + key + "SearchMusic 「Search」" + "\n" + \
 				"╠ " + key + "SearchLyric 「Search」" + "\n" + \
 				"╠ " + key + "SearchYoutube 「Search」" + "\n" + \
-				"╚══[ Copyright @Zero-Cool404 ]"
+				"╚══[ Help Message ]"
 	return menuHelp
 
 def menuTextToSpeech():
@@ -265,8 +265,9 @@ def menuTextToSpeech():
 						"╠ " + key + "uk : Ukrainian" + "\n" + \
 						"╠ " + key + "vi : Vietnamese" + "\n" + \
 						"╠ " + key + "cy : Welsh" + "\n" + \
-						"╚══[ Jangan Typo ]" + "\n" + "\n\n" + \
-						"Contoh : " + key + "say-id chiken"
+						"╠ CONTOHNYA⬇⬇⬇" + "\n" + \
+						"╠ " + key + "say-id chiken" + "\n" + \
+						"╚══[ Jangan Typo ]"
 	return menuTextToSpeech
 
 def menuTranslate():
@@ -381,8 +382,9 @@ def menuTranslate():
 					"╠ " + key + "zu : zulu" + "\n" + \
 					"╠ " + key + "fil : Filipino" + "\n" + \
 					"╠ " + key + "he : Hebrew" + "\n" + \
-					"╚══[ Jangan Typo ]" + "\n" + "\n\n" + \
-					"Contoh : " + key + "tr-id chiken"
+					"╠ CONTOHNYA⬇⬇⬇" + "\n" + \
+					"╠ " + key + "tr-id chiken" + "\n" + \
+					"╚══[ Jangan Typo ]"
 	return menuTranslate
 
 def clientBot(op):
